@@ -1,0 +1,49 @@
+# Python Bytecode and Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Streamlit Local Secrets (keep config.toml tracked for cloud theme)
+.streamlit/secrets.toml
+
+# Large Datasets & Archives (> 1.3 GB)
+CMFD-main/
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Local Sample Images and Benchmarks
+13640_2019_469_Fig1_HTML.png
+2-Figure1-1.png
+Copy-move-forgery-example.png
+images.jpg
+images2.jpg
+images3.jpg
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.bmp
+*.tiff
+
+# Temporary Test and Evaluation Scripts
+test_engines.py
+test_*.py
+scratch/
+
+# Operating System & IDE Artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
